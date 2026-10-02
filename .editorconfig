@@ -1,0 +1,25 @@
+; EditorConfig is awesome: http://EditorConfig.org
+
+root = true
+
+[*]
+charset = utf-8
+spelling_language = en-US
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+[{*.sh,*.bash,.envrc}]
+simplify = true
+binary_next_line = false
+switch_case_indent = true
+space_redirects = false
+keep_padding = false
+function_next_line = false
+minify = false
+
+[.envrc]
+shell_variant = bash

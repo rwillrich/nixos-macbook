@@ -10,6 +10,7 @@
     ./modules/1password.nix
     ./modules/vim.nix
     ./modules/vscodium.nix
+    ./specialisations/next
   ];
 
   nix.channel.enable = false;

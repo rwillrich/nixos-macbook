@@ -2,6 +2,10 @@
   imports = [
     ./hardware-configuration.nix
     ./disko-configuration.nix
+    ./modules/hardware/cpu/intel/ivy-bridge
+    ./modules/hardware/network/broadcom/bcm43xx
+    ./modules/hardware/pc/ssd
+    ./modules/hardware/webcam/apple/facetimehd
     ./modules/nixpkgs-exceptions.nix
     ./modules/users/immutable.nix
     ./modules/users/rwillrich.nix
@@ -10,6 +14,7 @@
     ./modules/1password.nix
     ./modules/vim.nix
     ./modules/vscodium.nix
+    ./modules/mbpfan.nix
     ./specialisations/next
   ];
 

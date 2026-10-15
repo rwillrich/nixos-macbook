@@ -8,6 +8,7 @@
 
   hardware.graphics.extraPackages = lib.mkAfter [
     pkgs.intel-vaapi-driver
+    pkgs.intel-ocl
   ];
 
   hardware.graphics.extraPackages32 = lib.mkAfter [

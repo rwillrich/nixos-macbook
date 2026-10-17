@@ -1,8 +1,11 @@
-{ config, lib, pkgs, ... }:
 {
-  imports = [
-    ../.
-  ];
+  config,
+  lib,
+  pkgs,
+  ...
+}:
+{
+  imports = [ ../. ];
 
   boot.initrd.kernelModules = lib.mkAfter [ "i915" ];
 

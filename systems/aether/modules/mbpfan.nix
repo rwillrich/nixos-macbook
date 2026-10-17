@@ -1,3 +1,1 @@
-{
-  services.mbpfan.enable = true;
-}
+{ services.mbpfan.enable = true; }

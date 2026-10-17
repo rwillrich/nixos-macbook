@@ -2,10 +2,7 @@
   imports = [
     ./hardware-configuration.nix
     ./disko-configuration.nix
-    ./modules/hardware/cpu/intel/ivy-bridge
-    ./modules/hardware/network/broadcom/bcm43xx
-    ./modules/hardware/pc/ssd
-    ./modules/hardware/webcam/apple/facetimehd
+    ./modules/hardware/pc/laptop/apple/macbook-pro/9-2
     ./modules/nixpkgs-exceptions.nix
     ./modules/users/immutable.nix
     ./modules/users/rwillrich.nix

@@ -1,5 +1,1 @@
-{
-  imports = [
-    ../cpu-only.nix
-  ];
-}
+{ imports = [ ../cpu-only.nix ]; }

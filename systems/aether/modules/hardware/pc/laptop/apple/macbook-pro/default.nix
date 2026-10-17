@@ -1,0 +1,6 @@
+{
+  imports = [
+    ../../../../webcam/apple/facetimehd
+    ../.
+  ];
+}

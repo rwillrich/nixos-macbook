@@ -1,4 +1,1 @@
-{ lib, ... }:
-{
-  services.fstrim.enable = lib.mkDefault true;
-}
+{ lib, ... }: { services.fstrim.enable = lib.mkDefault true; }

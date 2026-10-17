@@ -1,4 +1,1 @@
-{ lib, ... }:
-{
-  hardware.facetimehd.enable = lib.mkDefault true;
-}
+{ lib, ... }: { hardware.facetimehd.enable = lib.mkDefault true; }

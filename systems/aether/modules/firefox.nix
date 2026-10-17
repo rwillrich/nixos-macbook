@@ -255,21 +255,21 @@
                 resultsSettings = [
                   "q=${searchTerms}" # Query
                   "kl=wt-wt" # Region: All regions
-                  "kp=-2" # Safe Search: Moderate
-                  "kz=-2" # Instant Answers: Off
-                  "kc=0" # Auto-load Images: On
-                  "kav=0" # Auto-load Results: On
-                  "kn=-2" # Open in New Window: Off
+                  "kp=-1" # Safe Search: Moderate
+                  "kz=-1" # Instant Answers: Off
+                  "kc=1" # Auto-load Images: On
+                  "kav=1" # Auto-load Results: On
+                  "kn=-1" # Open in New Window: Off
                   "kf=fw" # Favicons: All WOT + favicons
-                  "kaf=0" # Full URLs: On
-                  "kac=0" # Auto-suggest: On
+                  "kaf=1" # Full URLs: On
+                  "kac=1" # Auto-suggest: On
                 ];
 
                 privacySettings = [
-                  "kd=-2" # Redirect: Off
-                  "kh=0" # HTTPS: On
+                  "kd=-1" # Redirect: Off
+                  "kh=1" # HTTPS: On
                   "kg=g" # Method: GET
-                  "k4=2" # Video Playback: Open on third-party site
+                  "k5=2" # Video Playback: Open on third-party site
                 ];
 
                 lookAndFeelSettings = [
@@ -278,9 +278,9 @@
 
                 interfaceSettings = [
                   "ko=s" # Header: On & scrolling
-                  "k0=-1" # Advertisements: Off
-                  "kv=0" # Page Numbers: On
-                  "kaj=m" # Units of Measure: Metric
+                  "k1=-1" # Advertisements: Off
+                  "kv=1" # Page Numbers: On
+                  "kaj=n" # Units of Measure: Metric
                 ];
 
                 allSettings = lib.concatLists [

@@ -28,7 +28,7 @@
 
     profiles.user.databases = [
       {
-        lockAll = true;
+        lockAll = false;
 
         settings = with lib.gvariant; {
           "org/freedesktop/tracker/miner/files" = {
